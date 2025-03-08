@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="logo">
+    <image src="/images/logo.png" mode="aspectFit"></image>
+  </view>
+  
+  <view class="title">德实物流专线</view>
+  
+  <view class="form">
+    <view class="form-item">
+      <text class="iconfont icon-phone"></text>
+      <input 
+        class="input" 
+        type="number" 
+        placeholder="请输入手机号" 
+        value="{{phone}}" 
+        bindinput="onPhoneInput" 
+        maxlength="11" 
+      />
+    </view>
+
+    <view class="form-item">
+      <text class="iconfont icon-lock"></text>
+      <input 
+        class="input" 
+        type="password" 
+        placeholder="请输入密码" 
+        value="{{password}}" 
+        bindinput="onPasswordInput" 
+      />
+    </view>
+
+    <button 
+      class="submit-btn" 
+      bindtap="handleLogin" 
+      loading="{{loading}}" 
+      disabled="{{loading}}"
+    >
+      {{loading ? '登录中...' : '登录'}}
+    </button>
+
+    <view class="register-link" bindtap="goToRegister">
+      没有账号？立即注册
+    </view>
+  </view>
+</view>

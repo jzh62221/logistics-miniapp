@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/register/index",
+    "pages/admin/index",
+    "pages/admin/user/list",
+    "pages/admin/audit/list",
+    "pages/admin/invite/list",
+    "pages/admin/order/list",
+    "pages/admin/driver/list",
+    "pages/user/index",
+    "pages/user/order/list",
+    "pages/user/order/detail",
+    "pages/user/order/track",
+    "pages/user/company/edit",
+    "pages/user/profile",
+    "pages/driver/index",
+    "pages/driver/order/list",
+    "pages/driver/order/detail",
+    "pages/driver/profile",
+    "pages/driver/car/edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1AAD19",
+    "navigationBarTitleText": "德实物流专线",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F7F8FA"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于货运定位"
+    },
+    "scope.camera": {
+      "desc": "您的摄像头将用于拍摄运单或证明材料"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {
+    "mp-icon": "weui-miniprogram/icon/icon",
+    "mp-searchbar": "weui-miniprogram/searchbar/searchbar",
+    "mp-cells": "weui-miniprogram/cells/cells",
+    "mp-cell": "weui-miniprogram/cell/cell"
+  },
+  "debug": true
+}

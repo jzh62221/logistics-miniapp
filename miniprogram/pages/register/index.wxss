@@ -1,0 +1,131 @@
+.container {
+  min-height: 100vh;
+  background-color: #fff;
+  padding: 40rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 60rpx;
+  text-align: center;
+}
+
+.form {
+  padding: 0 20rpx;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+  margin-bottom: 40rpx;
+  padding: 20rpx 0;
+}
+
+.iconfont {
+  font-size: 40rpx;
+  color: #999;
+  margin-right: 20rpx;
+}
+
+.input {
+  flex: 1;
+  font-size: 32rpx;
+}
+
+.verification {
+  display: flex;
+  align-items: center;
+}
+
+.verification input {
+  flex: 1;
+}
+
+.code-btn {
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  padding: 0 20rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background: #1AAD19;
+  color: #fff;
+  border-radius: 30rpx;
+}
+
+.code-btn.counting {
+  background: #ccc;
+}
+
+.upload-section {
+  margin-bottom: 30rpx;
+}
+
+.upload-title {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.upload-box {
+  flex: 1;
+  height: 200rpx;
+  border: 2rpx dashed #ddd;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.upload-box image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #999;
+}
+
+.upload-placeholder .iconfont {
+  font-size: 60rpx;
+  margin-bottom: 10rpx;
+}
+
+.upload-placeholder text:last-child {
+  font-size: 24rpx;
+}
+
+.preview {
+  width: 100%;
+  height: 100%;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #1AAD19;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 44rpx;
+  margin-top: 60rpx;
+}
+
+.submit-btn[disabled] {
+  background: #ccc;
+  color: #fff;
+}
+
+.login-link {
+  text-align: center;
+  font-size: 28rpx;
+  color: #1AAD19;
+  margin-top: 40rpx;
+} 

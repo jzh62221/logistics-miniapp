@@ -1,0 +1,15 @@
+{
+  "name": "driverRegister",
+  "version": "1.0.0",
+  "description": "司机注册",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wx-server-sdk": "latest",
+    "crypto": "^1.0.1"
+  }
+} 

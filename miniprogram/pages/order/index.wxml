@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="form">
+    <view class="form-item">
+      <text class="label">发货地</text>
+      <input class="input" placeholder="请输入发货地" model:value="{{fromAddress}}" />
+    </view>
+    <view class="form-item">
+      <text class="label">收货地</text>
+      <input class="input" placeholder="请输入收货地" model:value="{{toAddress}}" />
+    </view>
+    <view class="form-item">
+      <text class="label">货物信息</text>
+      <input class="input" placeholder="请输入货物信息" model:value="{{cargoInfo}}" />
+    </view>
+    <view class="form-item">
+      <text class="label">运费</text>
+      <input class="input" type="digit" placeholder="请输入运费" model:value="{{freight}}" />
+    </view>
+    <button class="submit-btn" bindtap="handleSubmit">创建测试订单</button>
+  </view>
+</view> 
