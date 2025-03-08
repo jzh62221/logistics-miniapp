@@ -1,0 +1,15 @@
+# 忽略编译产物
+dist/
+node_modules/
+
+# 忽略日志和临时文件
+*.log
+*.temp
+
+# 忽略 IDE 配置文件（可选）
+.idea/
+.vscode/
+
+# 忽略微信开发者工具缓存
+.project
+.settings/
